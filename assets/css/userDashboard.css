@@ -1,0 +1,41 @@
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.row{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.col-6{
+  width: 50%;
+}
+
+.chart-container{
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 14px 6px lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calcuteors:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+.calcuteors{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 14px 6px lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+}
+
